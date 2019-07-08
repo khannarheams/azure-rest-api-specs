@@ -347,6 +347,10 @@
           "$ref": "./network.json#/definitions/IPVersion",
           "description": "The public IP address version."
         },
+        "loadBalancerFrontendIpConfiguration": {
+          "$ref": "./network.json#/definitions/subResource", 
+          "description": "The frontend ip configuration of the load balancer"
+        },
         "ipTags": {
           "type": "array",
           "items": {
