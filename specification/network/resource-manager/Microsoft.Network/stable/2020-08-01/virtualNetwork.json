@@ -1741,6 +1741,11 @@
           "default": null,
           "description": "The DDoS protection plan associated with the virtual network."
         },
+        "ddosProtectionPlanProxies": {
+          "$ref": "./network.json#/definitions/SubResource",
+          "default": null,
+          "description": "The DDoS protection plan proxies associated with the virtual network"      
+        },
         "bgpCommunities": {
           "$ref": "#/definitions/VirtualNetworkBgpCommunities",
           "default": null,
